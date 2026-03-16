@@ -61,7 +61,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-gray-300">
                   <Phone size={16} className="text-secondary" />
-                  <span className="text-sm">+250 788 123 456</span>
+                  <span className="text-sm">+250 788 504 917</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-300">
                   <MapPin size={16} className="text-secondary" />
@@ -84,7 +84,7 @@ const Footer = () => {
                   {section.links.map((link) => (
                     <li key={link}>
                       <a
-                        href="#"
+                        href={`#${link.toLowerCase().replace(/\s+/g, '-')}`}
                         className="text-gray-300 hover:text-secondary transition-colors duration-300 text-sm"
                       >
                         {link}
