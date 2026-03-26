@@ -1,3 +1,4 @@
+// Updated Home.jsx with new components
 import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';

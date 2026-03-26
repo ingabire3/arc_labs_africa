@@ -10,6 +10,8 @@ A modern professional website for ARC LABS AFRIKA technology company built with 
 - Lucide React icons
 - Mobile-responsive design
 - Professional startup/SaaS UI
+- Team section with member profiles
+- Enhanced logo spacing and branding
 
 ## 🛠️ Tech Stack
 
@@ -80,6 +82,7 @@ src/
 │   ├── ProblemSolution.jsx
 │   ├── Advantages.jsx
 │   ├── Vision.jsx
+│   ├── Team.jsx
 │   ├── Contact.jsx
 │   ├── Footer.jsx
 │   └── Home.jsx
